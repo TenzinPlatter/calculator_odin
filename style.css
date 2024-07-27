@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	justify-content: center;
+	margin-top: 64px;
+}
+
+.calculator-container {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 28px;
+	background-color: #1F2937;
+}
+
+button {
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E7EB;
+}
+
+/* decimal point */
+button#b10 {
+	font-size: 24px;
+}
+
+/* special buttons */
+button#b-1,
+button#b-2,
+button#b-3,
+button#b-4,
+button#b-5 {
+	background-color: orange;
+	font-size: 20px;
+}
+
+.top, .bottom,
+.middle-1, .middle-2 {
+	display: flex;
+	gap: 8px;
+}
+
+button#delete,
+button#clear {
+	width: 88px;
+	background-color: orange;
+}
+
+.util-buttons-container {
+	display: flex;
+	gap: 8px;
+}
+
+.display {
+	width: 184px;
+	height: 50px;
+	outline: #F9FAF8 solid 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 16px;
+	color: #F9FAF8;
+}
